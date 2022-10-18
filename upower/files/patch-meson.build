@@ -1,0 +1,11 @@
+--- meson.build.orig	2022-07-21 09:06:49 UTC
++++ meson.build
+@@ -111,7 +111,7 @@ endif
+ config_h = configure_file(output: 'config.h', configuration: cdata)
+ 
+ subdir('etc')
+-subdir('rules')
++#subdir('rules')
+ subdir('po')
+ subdir('dbus')
+ subdir('libupower-glib')
